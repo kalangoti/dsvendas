@@ -9,6 +9,7 @@ const Dashboard = () => {
   return (
     <Fragment>
       <Navbar />
+
       <div className="container">
         <h1 className="text-primary py-3">Dashboard de Vendas</h1>
 
@@ -31,6 +32,7 @@ const Dashboard = () => {
 
         <DataTable />
       </div>
+
       <Footer />
     </Fragment>
   );
