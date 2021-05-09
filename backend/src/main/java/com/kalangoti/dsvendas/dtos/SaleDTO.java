@@ -5,9 +5,10 @@ import java.time.LocalDate;
 
 import com.kalangoti.dsvendas.entities.Sale;
 
-// Boa medida para garantir que seja convertido para bytes e possa ser trafegado em rede e ser salvo em arquivo.
 public class SaleDTO implements Serializable {
 
+	// Boa medida para garantir que seja convertido para bytes e possa ser trafegado
+	// em rede e ser salvo em arquivo.
 	private static final long serialVersionUID = 1L;
 
 	private Long id;

@@ -4,14 +4,15 @@ import java.io.Serializable;
 
 import com.kalangoti.dsvendas.entities.Seller;
 
-// Boa medida para garantir que seja convertido para bytes e possa ser trafegado em rede e ser salvo em arquivo.
 public class SellerDTO implements Serializable {
 
+	// Boa medida para garantir que seja convertido para bytes e possa ser trafegado
+	// em rede e ser salvo em arquivo.
 	private static final long serialVersionUID = 1L;
 
 	private Long id;
 	private String name;
-	
+
 	public SellerDTO() {
 		super();
 	}
@@ -21,7 +22,7 @@ public class SellerDTO implements Serializable {
 		this.id = id;
 		this.name = name;
 	}
-	
+
 	public SellerDTO(Seller entity) {
 		id = entity.getId();
 		name = entity.getName();
