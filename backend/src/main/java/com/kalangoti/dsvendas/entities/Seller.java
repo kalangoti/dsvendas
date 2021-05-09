@@ -23,6 +23,7 @@ public class Seller {
 	private List<Sale> sales = new ArrayList<>();
 
 	public Seller() {
+		super();
 	}
 
 	public Seller(Long id, String name) {
